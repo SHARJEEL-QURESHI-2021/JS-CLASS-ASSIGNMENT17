@@ -142,10 +142,10 @@ btn.addEventListener('click', () => {
 
 var sets = document.getElementById("nun1");
 function sign() {
-    var nam = +document.getElementById("nam").value;
-    var roll = +document.getElementById("roll").value;
-    var mail = +document.getElementById("mail").value;
-    var passwrd = +document.getElementById("passwrd").value;
+    var nam = document.getElementById("nam").value;
+    var roll = document.getElementById("roll").value;
+    var mail = document.getElementById("mail").value;
+    var passwrd = document.getElementById("passwrd").value;
     if ((nam != "") && (roll != "") && (mail != "") && (passwrd != "")) {
         sets.style.display = "none";
         form.style.display = "block";
